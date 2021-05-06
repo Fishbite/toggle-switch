@@ -10,11 +10,11 @@ completely re-written. Think "unhappy bunny" time!
 So check out the result with ```index.html``` & ```switch.css```
 
 Now! having done that (and after spending the best part of a day grappling the the new css) someone else posted a simple solution
-to our problem on stackoverflow. Instead of trying to use ```justify-content: flex-end``` it simply used ```flex: 1 1 0%;``` which
-is a ```flex-grow``` property that we had not used before, we're really not too familiar with flex and have only really used it
-so that we can position things vertically and horizontally without a headache!
+to our problem on stackoverflow. Instead of trying to use ```justify-content: flex-end``` it simply used ```flex: 0``` to ```flex: 1 1 0%;``` which
+is a ```flex-grow``` property that we had not used before. We're really not too familiar with flex and have only used it in earnest
+to position things vertically and horizontally without a headache!
 
-Thanks to https://stackoverflow.com/users/11774872/prakash-m for the simple solution.
+Thanks to https://stackoverflow.com/users/11774872/prakash-m for the simple solution. A change of two lines of code "happy bunny" time :)
 
 So check out the result with ```indexToOriginalCSS.html``` linked to ```switch-original-fixed.css``` The original design remains
 unaffected and in some ways, much easier to work with. It was kept simple just to post the code on stackoverflow, but I think you
